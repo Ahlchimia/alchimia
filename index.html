@@ -3,96 +3,126 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>ALCHIMIA</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400&display=swap" rel="stylesheet">
 
 <style>
 
-body {
-    margin: 0;
-    background-color: #f6f2ea;
-    font-family: 'Inter', sans-serif;
-    color: #1a1a1a;
+body{
+margin:0;
+background:#f4efe6;
+font-family:'Inter',sans-serif;
+color:#1a1a1a;
 }
 
-body::after {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(
-        120deg,
-        transparent 48%,
-        rgba(185,164,106,0.08) 50%,
-        transparent 52%
-    );
-    pointer-events: none;
+/* subtle marble light */
+
+body::after{
+content:"";
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:linear-gradient(
+120deg,
+transparent 48%,
+rgba(191,164,111,0.08) 50%,
+transparent 52%
+);
+pointer-events:none;
 }
 
-.container {
-    max-width: 760px;
-    margin: 120px auto;
-    padding: 0 24px;
+/* layout */
+
+.container{
+max-width:820px;
+margin:120px auto;
+padding:0 28px;
 }
 
-h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 48px;
-    letter-spacing: 5px;
-    margin-bottom: 18px;
+/* typography */
+
+h1{
+font-family:'Playfair Display',serif;
+font-size:48px;
+letter-spacing:6px;
+margin-bottom:18px;
 }
 
-.subtitle {
-    font-size: 18px;
-    margin-bottom: 6px;
+.subtitle{
+font-size:18px;
+margin-bottom:6px;
 }
 
-.micro {
-    font-size: 14px;
-    opacity: 0.7;
-    margin-bottom: 42px;
+.micro{
+font-size:14px;
+opacity:0.65;
+margin-bottom:50px;
 }
 
-a.button {
-    display: inline-block;
-    margin-top: 24px;
-    padding: 12px 28px;
-   border: 1px solid #2a2a2a;
-color: #2a2a2a;
-    text-decoration: none;
-    font-size: 13px;
-    letter-spacing: 1.5px;
-    border-radius: 3px;
-    transition: all 0.2s ease;
+/* sections */
+
+section{
+margin-top:90px;
 }
 
-a.button:hover {
-    background-color: #2a2a2a;
-color: #ece6da;
-
+h2{
+font-family:'Playfair Display',serif;
+font-size:28px;
+margin-bottom:24px;
 }
 
-section {
-    margin-top: 110px;
+h3{
+font-family:'Playfair Display',serif;
+font-size:22px;
+margin-bottom:8px;
 }
 
-h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 28px;
-    margin-bottom: 24px;
+p{
+line-height:1.9;
+margin-bottom:16px;
 }
 
-ul {
-    padding-left: 18px;
-    line-height: 1.9;
+/* lists */
+
+ul{
+padding-left:18px;
+line-height:1.9;
 }
 
-p {
-    line-height: 1.9;
-    margin-bottom: 18px;
+/* services */
+
+.service{
+margin-bottom:40px;
+padding-bottom:26px;
+border-bottom:1px solid #e6dcc7;
+}
+
+/* buttons */
+
+.button{
+display:inline-block;
+margin-top:14px;
+padding:12px 28px;
+
+border:1px solid #bfa46f;
+color:#bfa46f;
+
+text-decoration:none;
+font-size:13px;
+letter-spacing:1.5px;
+
+border-radius:3px;
+
+transition:all .25s ease;
+}
+
+.button:hover{
+background:#bfa46f;
+color:white;
 }
 
 </style>
@@ -104,56 +134,106 @@ p {
 
 <h1>ALCHIMIA</h1>
 
-<div class="subtitle">Structural Astrological Analysis</div>
-<div class="micro">Irreversible clarity. Private document.</div>
+<div class="subtitle">Structural Astrological Reports</div>
+<div class="micro">Private analytical documents</div>
+
+<p>
+Astrology does not create events. It reveals structural patterns.
+</p>
+
+<p>
+When a configuration is observed in its full architecture, compensatory mechanisms lose coherence. Reorganization begins.
+</p>
 
 <section>
-<h2>Statement</h2>
-<p>Astrology does not create events. It reveals structural patterns.</p>
-<p>When a configuration is observed in full architecture, compensatory mechanisms lose coherence.</p>
-<p>Reorganization begins.</p>
-</section>
 
-<section>
 <h2>What This Is</h2>
+
 <ul>
-<li>A structural reading of the natal chart</li>
-<li>A private written document</li>
-<li>Systemic analysis of recurring patterns</li>
+<li>Structural analysis of natal configurations</li>
+<li>Private written analytical documents</li>
+<li>Systemic interpretation of recurring patterns</li>
 <li>Transit activation overview</li>
-<li>Reorganization Axis</li>
+<li>Reorganization axis</li>
 </ul>
+
 </section>
 
 <section>
+
 <h2>What This Is Not</h2>
+
 <ul>
 <li>Predictive entertainment</li>
 <li>Therapeutic coaching</li>
 <li>Ritual or spiritual guidance</li>
 <li>General horoscope content</li>
 </ul>
+
 </section>
+
+<section>
+
+<h2>Services</h2>
+
+<div class="service">
+
+<h3>Structural Astrological Report</h3>
+
+<p>
+A structural examination of the natal chart revealing recurring patterns,
+compensatory mechanisms and the systemic architecture underlying
+individual experience.
+</p>
+
+<a href="https://www.paypal.com/ncp/payment/CQXEA327D5RTW" class="button">Request Analysis</a>
 
 </div>
 
-   <section>
-<h2>Services</h2>
-
-<h3>Structural Astrological Report</h3>
-<p>A structural examination of the natal chart revealing recurring patterns and systemic architecture.</p>
-<a href="https://www.paypal.com/ncp/payment/CQXEA327D5RTW" class="service-button">Request Natal Analysis</a>
+<div class="service">
 
 <h3>Structural Analysis of the Solar Return Chart</h3>
-<p>An analysis of the solar return chart identifying dominant structural themes for the coming year.</p>
-<a href="https://www.paypal.com/ncp/payment/FLJP6YYGMPKU6" class="service-button">Request Solar Return Analysis</a>
+
+<p>
+An examination of the solar return chart identifying the dominant
+structural themes and activation cycles shaping the upcoming year.
+</p>
+
+<a href="https://www.paypal.com/ncp/payment/FLJP6YYGMPKU6" class="button">Request Analysis</a>
+
+</div>
+
+<div class="service">
 
 <h3>Structural Analysis of Relational Dynamics</h3>
-<p>A structural comparison of two natal charts revealing relational mechanics and activation points.</p>
-<a href="https://www.paypal.com/ncp/payment/LSRTL4AGQBCUG" class="service-button">Request Relational Analysis</a>
+
+<p>
+A structural comparison of two natal charts revealing underlying
+relational mechanics, tensions and complementary activation points.
+</p>
+
+<a href="https://www.paypal.com/ncp/payment/LSRTL4AGQBCUG" class="button">Request Analysis</a>
+
+</div>
+
+<div class="service">
+
+<h3>Astrocartography Analysis</h3>
+
+<p>
+A geographical analysis of planetary lines showing how different regions
+of the world activate distinct dimensions of the natal chart. Particularly
+useful when considering relocation, long-term travel or international
+projects.
+</p>
+
+<a href="https://www.paypal.com/ncp/payment/Y82N4HYWF2VXC" class="button">Request Analysis</a>
+
+</div>
 
 </section>
 
+</div>
 
 </body>
 </html>
